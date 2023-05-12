@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #007241;
+}
+
+p{
+    font-size: 20px;
+}
+#hidden{
+    display: none;
+}
+
+.blockBtn{
+    margin-top: 230px;
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+.bet{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 60px;
+    background-color: rgb(161, 152, 142);
+}
+
+.bigBtn{
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 60px;
+    background-color: rgb(161, 152, 142);
+}
+
+.smallBtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 60px;
+    background-color: rgb(161, 152, 142);
+}

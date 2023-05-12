@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="main.styles.css">
+    </head>
+
+    <body>
+        <h1>Balance <span id="balance">1000</span></h1>
+        <h2 class="dealer">Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="./cards/BACK.png">
+        </div>
+
+        <h2 class="player">You: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+        <p id="results"></p>
+        <p>Your bet: <span id="bet">0</span></p>
+        <br>
+        <div id="betBtn">
+            <button id="10bet" class="smallBtn">10bet</button>
+            <button id="20bet" class="smallBtn">20bet</button>
+            <button id="50bet" class="smallBtn">50bet</button>
+            <button id="100bet" class="smallBtn">100bet</button>
+        </div>
+        <div class="blockBtn">
+        <button id="start" class="bigBtn">Start</button>
+        <button id="hit" class="smallBtn">Hit</button>
+        <button id="stay" class="smallBtn">Stay</button>
+        <button id="double" class="smallBtn">Double</button>
+        <button id="newBet" class="bigBtn">New Bet</button>
+        </div>
+        
+
+        <script src="main.scripts.js"></script>
+    </body>
+</html>
